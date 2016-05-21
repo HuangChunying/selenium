@@ -83,8 +83,8 @@ public class TestWebDriver {
 	
 	@Test
 	public void firefox() {
-		StartFireFoxLoadPlugin();
-		//firefoxstart();
+		//StartFireFoxLoadPlugin();
+		firefoxstart();
 		// StartFireFoxNotByDefault();
 	}
 

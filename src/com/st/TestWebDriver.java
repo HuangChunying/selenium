@@ -61,7 +61,7 @@ public class TestWebDriver {
 	public static void StartFireFoxLoadPlugin() {
 		System.out.println("start firefox browser...");
 		System.setProperty("webdriver.firefox.bin", "D:/firefox/firefox.exe");
-		File file = new File("C:/Users/luoer/AppData/Roaming/Mozilla/Firefox/Profiles/0fq627tu.default/extensions/firebug@software.joehewitt.com.xpi");
+		File file = new File("C:/Users/Administrator/AppData/Roaming/Mozilla/Firefox/Profiles/afxbxa5n.default/extensions/firebug@software.joehewitt.com.xpi");
 		FirefoxProfile profile = new FirefoxProfile();
 		try {
 			profile.addExtension(file);
